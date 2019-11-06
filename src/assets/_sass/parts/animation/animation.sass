@@ -1,0 +1,6 @@
+@mixin loadingAnimationTransform($name, $percentage, $translateX, $rotate, $scale)
+  @-webkit-keyframes #{$name}
+    #{$percentage}
+      -webkit-transform: translateX($translateX) rotate($rotate) scale($scale)
+
+

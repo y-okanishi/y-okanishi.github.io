@@ -1,0 +1,31 @@
+.spinner {
+  margin: 1100px auto;
+  width: 40px;
+  height: 40px;
+  position: relative; }
+
+.cube1 .cube2 {
+  background-color: #333;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
+  animation: sk-cubemove 1.8s infinite ease-in-out; }
+
+.cube2 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s; }
+
+@-webkit-keyframes sk-cubemove {
+  15% {
+    -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5); } }
+#wrapper {
+  width: 121px;
+  margin: 0 auto; }
+  #wrapper div#bo {
+    width: 543px;
+    background: red; }
+
+/*# sourceMappingURL=style.css.map */
